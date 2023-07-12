@@ -1,0 +1,373 @@
+id,constant,position,translate
+1. Главная страница,,,
+1.1. Посадочная страница.,,,
+1,indexHeaderText.slide1.title,Заголовок №1,Dünyanın en iyi platformunda yüksek kârlı ticaret
+2,indexHeaderText.slide1.text|dot,Подзаголовок к заголовку №1,"Yenilikçi ticaret platformu, 6 finansal piyasadan anında işlem yapmanıza ve para kazanmanıza imkâ sağlar"
+3,indexHeaderText.slide2.title,Заголовок №2,Güvenlik
+4,indexHeaderText.slide2.text|dot,Подзаголовок к заголовку №2,Company Name müşteri fonlarının tamamen korunduğundan emin olmak için dikkatli bir şekilde izlemektedir
+5,indexHeaderText.slide3.title,Заголовок №3,Konfor
+6,indexHeaderText.slide3.text|dot,Подзаголовок к заголовку №3,"Platformun en iyi mobil sürümünü oluşturduk, böylece dünyanın herhangi bir yerinden ticaret yapabilirsiniz"
+7,indexHeaderText.slide4.title,Заголовок №4,Olanaklar
+8,indexHeaderText.slide4.text|dot,Подзаголовок к заголовку №4,"Ekibimiz, rahat ve verimli ticaret için platformda onlarca etkili ticaret aracı topladı"
+1.2. Почему мы? (Преимущества),,,
+9,indexAdvantagesText.h2,Главный заголовок раздела,Neden Company Name?
+10,indexAdvantagesText.advantage1.title,Преимущество №1,Erişilebilirlik
+11,indexAdvantagesText.advantage1.text|dot,Описание преимущества №1,Müşterilere hesapta minimum tutarla ticarete başlama imkânı sunuyoruz
+12,indexAdvantagesText.advantage2.title,Преимущество №2,Kâr
+13,indexAdvantagesText.advantage2.text|dot,Описание преимущества №2,Komisyonun büyüklüğünün aracılık piyasasında en düşük seviyede kalmasını takip ediyoruz
+14,indexAdvantagesText.advantage3.title,Преимущество №3,Optimizasyon
+15,indexAdvantagesText.advantage3.text|dot,Описание преимущества №3,Deneyimlerinize ve araçlarınıza bağlı olarak Company Name ile seçim yapabileceğiniz 3 işbirliği seçeneği sunuyoruz
+16,indexAdvantagesText.advantage4.title,Преимущество №4,Şeffaflık
+17,indexAdvantagesText.advantage4.text|dot,Описание преимущества №4,Müşterilere platformdaki tüm değişiklikler ve işbirliği koşulları hakkında derhal bilgi veriyoruz
+18,indexAdvantagesText.advantage5.title,Преимущество №5,Destek
+19,indexAdvantagesText.advantage5.text|dot,Описание преимущества №5,"Deneyimli Company Name finansal uzmanları, müşterilerin ticaret stratejileri oluşturmasına ve başarılı anlaşmalar yapmasına yardımcı olur"
+20,indexAdvantagesText.advantage6.title,Преимущество №6,Olanaklar
+21,indexAdvantagesText.advantage6.text|dot,Описание преимущества №6,Başarılı ticaret için 6 finansal piyasadan yüzlerce varlık arasından seçim yapıyoruz
+1.3. Дополнительные преимущества.,,,
+22,indexBenefitsText.h2,Главный заголовок раздела,Maksimum verimlilik
+23,indexBenefitsText.benefit1.title,Преимущество №1,Likidite
+24,indexBenefitsText.benefit1.text|dot,Описание преимущества №1,İşlemleriniz anında gerçekleştirilir
+25,indexBenefitsText.benefit2.title,Преимущество №2,Güncellik
+26,indexBenefitsText.benefit2.text|dot,Описание преимущества №2,Doğru fiyatları gerçek zamanlı olarak görüyorsunuz
+27,indexBenefitsText.benefit3.title,Преимущество №3,Destek
+28,indexBenefitsText.benefit3.text|dot,Описание преимущества №3,Sorunlarınızın her biri birkaç saat içinde çözülecektir
+29,indexBenefitsText.benefit4.title,Преимущество №4,Servis
+30,indexBenefitsText.benefit4.text|dot,Описание преимущества №4,Her Company Name müşterisinin potansiyeline tam olarak erişebilmesi için tüm koşulları oluşturduk
+1.4. Как начать.,,,
+31,indexStepsText.h2,Главный заголовок раздела,Platforma erişmek için kısa kayıt işlemini yapın
+32,indexStepsText.step1.title,Шаг №1,Hesap oluşturun
+33,indexStepsText.step1.text|dot,Описание Шага №1,İletişim bilgilerinizi doldurun ve onaylayın
+34,indexStepsText.step2.title,Шаг №2,İşbirliği türünü seçin
+35,indexStepsText.step2.text|dot,Описание Шага №2,Sizin için uygun ticaret koşullarını seçin
+36,indexStepsText.step3.title,Шаг №3,Ticarete başlayın
+37,indexStepsText.step3.text|dot,Описание Шага №3,Platformun işlevselliğine hakim olun ve ilk anlaşmayı yapın
+1.5. Информация об аккаунтах.,,,
+38,indexAccountsText.h2,Главный заголовок раздела,Hesap türleri
+39,indexAccountsText.account1.title,Аккаунт №1,Acemi
+40,indexAccountsText.account1.text|dot,Подзаголовок для аккаунта №1,Ticarette emin bir başlangıç için uygun araçlar
+41,indexAccountsText.account2.title,Аккаунт №2,Amatör
+42,indexAccountsText.account2.text|dot,Подзаголовок для аккаунта №2,Piyasada sürekli gelir elde etmek için tüm fırsatlar
+43,indexAccountsText.account3.title,Аккаунт №3,Uzman
+44,indexAccountsText.account3.text|dot,Подзаголовок для аккаунта №3,Başarılı anlaşmalar yapmak için sınırsız hizmet yelpazesi
+45,indexAccountsText.account_condition_1,Минимальный депозит:,Minimum depozito
+46,indexAccountsText.account_condition_2,Кредитное плечо:,Kaldıraç
+47,indexAccountsText.account_condition_3,Моментальное исполнение,Anlık gerçekleştirme
+48,indexAccountsText.account_condition_4,Торговля криптовалютами и металлами,Kripto para birimleri ve metal ticareti
+49,indexAccountsText.account_condition_5,Возможность инвестиций в ПАММ-счета,PAMM hesaplarına yatırım yapma imkânı
+50,indexAccountsText.account_condition_6,Отсутствие свопа,Swap bulunmuyor
+51,indexAccountsText.account_condition_7,Торговля ETF и индексами,ETF ve endeks ticareti
+52,indexAccountsText.account_condition_8,Страхование депозитов,Mevduat sigortası
+53,indexAccountsText.account_condition_9,Персональный менеджер,Kişisel yönetici
+54,indexAccountsText.account_condition_10,Открытие личного ПАММ-счета,Kişisel PAMM hesabının açılması
+53,indexAccountsText.account_condition_11,Защита депозитов,Mevduat koruması
+54,indexAccountsText.account_condition_12,Круглосуточная поддержка,7/24 destek
+1.6. Новости,,,
+55,indexNewsText.h2,Главный заголовок раздела,Dünya ekonomisi haberleri
+1.7. Футер,,,
+56,footerContent,Футер текст,"Brocker Name şirketinin kayıtlı olduğu adres: Northern Shops. Mile 1 Phillip Goldson Highway, Belize City, Belize. Şirketin faaliyetleri Kıbrıs Menkul Kıymetler ve Borsa Komisyonu (lisans numarası: 979/23), Uluslararası Finansal Hizmetler Komisyonu (IFSC) (01/46 /HP /77) ve Mauritius Cumhuriyeti Finansal Hizmetler Komisyonu (yatırım bayisinin lisans numarası: F07658994) gerekliliklerine uygun olarak yürütülmektedir."
+2. Рынки и инструменты,,,
+2.2. Обзор рынков,,,
+2.2.1. Посадочный экран,,,
+57,marketsHeaderText.title,Заголовок,Tek bir platformda 6 finansal piyasa
+58,marketsHeaderText.text|dot,Подзаголовок,Burada finansal piyasaların ve bunlarda temsil edilen varlıkların kapsamlı açıklamasını bulacaksınız
+59,commonMarketsText.title_graph,Заголовок торгового графика,Ticari aracım grafiği
+60,commonMarketsText.title_table,Заголовок таблицы инструментов,Alet tablosu
+61,commonMarketsText.footnote,Часы работы рынков,* Açılış ve kapanış saatleri UTC+0 olarak belirtilmiştir
+2.2.2. Валюты,,,
+62,marketsListText.market1.title,Заголовок,Forex
+63,marketsListText.market1.text|dot,Подзаголовок,"Ticarete başlamak için en iyi seçenek. Forex piyasasında, ticaret mekaniğini ve analiz ilkelerini kolayca öğreneceksiniz."
+2.2.3. Металлы,,,
+64,marketsListText.market2.title,Заголовок,Metaller
+65,marketsListText.market2.text|dot,Подзаголовок,Scalping ve uzun vadeli yatırımlar için fırsatlar. Metal piyasası aktif ticaret ve sermayenin korunması için uygundur.
+2.2.4. Акции,,,
+66,marketsListText.market3.title,Заголовок,Hisse senetleri
+67,marketsListText.market3.text|dot,Подзаголовок,Profesyonel ticaret için birçok varlık. Hisse senedi piyasası pasif kâr elde etmenize ve kârlı ticaret yapmanızı sağlayacaktır.
+2.2.5. Товары,,,
+68,marketsListText.market4.title,Заголовок,Hammadde
+69,marketsListText.market4.text|dot,Подзаголовок,Muhafazakar ticaret için ürünler. Hammadde piyasası mümkün olduğunca öngörülebilir ve asgari becerilerle kazanmanıza izin verir.
+2.2.6. Индексы,,,
+70,marketsListText.market5.title,Заголовок,Endeksler
+71,marketsListText.market5.text|dot,Подзаголовок,En güvenilir yatırımlar. Endeks piyasasında %100 getiri garantisi ile yatırım yapabilirsiniz.
+2.2.7. Криптовалюты,,,
+72,marketsListText.market6.title,Заголовок,Kripto para birimi
+73,marketsListText.market6.text|dot,Подзаголовок,"Sınırsız kazanç fırsatları. Kripto varlık piyasası umut verici girişimler, sürekli dalgalanmalar ve muazzam gelirdir."
+2.3. Валюты,,,
+2.3.1. Посадочный экран,,,
+74,forexHeaderText.title,Заголовок,Forex
+75,forexHeaderText.text|dot,Подзаголовок,Forex piyasası yeni başlayanlar ve deneyimli tüccarlar için geniş fırsatlar sunmaktadır. Burada ticaret stratejilerinizi oluşturabilir ve bunları başarılı işlemler yapmak için kullanabilirsiniz.
+76,forexProfitsText.profit1.title,Преимущество №1. Заголовок.,Öngörülebilirlik
+77,forexProfitsText.profit1.text|dot,Преимущество №1. Описание.,Döviz çiftlerinin hareket yönünü tahmin etmek için politik ve ekonomik haberleri incelemek yeterlidir.
+78,forexProfitsText.profit2.title,Преимущество №2. Заголовок.,Likidite
+79,forexProfitsText.profit2.text|dot,Преимущество №2. Описание.,"Modern teknoloji ve büyük likidite toplayıcıları, bir saniyeden daha kısa sürede işlem yapmanıza izin verecektir."
+80,forexProfitsText.profit3.title,Преимущество №3. Заголовок.,Olanaklar
+81,forexProfitsText.profit3.text|dot,Преимущество №3. Описание.,"Forex piyasasında, her biri uzun vadede tüccarlara kâr getirebilecek düzinelerce varlık bulunmaktadır."
+82,forexProfitsText.profit4.title,Преимущество №4. Заголовок.,Konfor
+83,forexProfitsText.profit4.text|dot,Преимущество №4. Описание.,Sabit çalışma programını unutun - Forex'te istediğiniz zaman ticaret yapabilirsiniz.
+2.3.2. Описание рынка,,,
+84,forexAssetsText.title,Заголовок,Döviz çiftleri piyasası
+85,forexAssetsText.text|dot,Подзаголовок,"Forex, en büyük yatırım fonlarının sıradan tüccarlarla eşit ticaret yaptığı yerdir. Burada her ölçekteki işlemleri açabilirsiniz ve kazançlar yalnızca bilgi ve becerilerinize bağlıdır."
+2.4. Металлы,,,
+2.4.1. Посадочный экран,,,
+86,metalsHeaderText.title,Заголовок,Metaller
+87,metalsHeaderText.text|dot,Подзаголовок,"Değerli metaller piyasası kendi yollarıyla benzersizdir. Üzerinde temsil edilen varlıklar (altın, gümüş vb.) kısa vadede oynaktır, ancak yıllardır ve hatta on yıllardır istikrarlı bir seyir izlemektedir. Buna göre, burada kriz dönemlerinde aktif ticaret yapabilir ve sermayeyi koruyabilirsiniz."
+88,metalsProfitsText.profit1.title,Преимущество №1. Заголовок.,Erişilebilirlik
+89,metalsProfitsText.profit1.text|dot,Преимущество №1. Описание.,"CFD sözleşmelerinin ve mikrolotların imkânları aracılığyla, mevduatta minimum miktar ile metal piyasasında işlem yapmaya başlayabilirsiniz."
+90,metalsProfitsText.profit2.title,Преимущество №2. Заголовок.,Kâr
+91,metalsProfitsText.profit2.text|dot,Преимущество №2. Описание.,Tüccarların maliyetlerini olabildiğince azaltmaya çalışıyoruz ve metal piyasasında Company Name ekibi etkileyici başarılar elde etti.
+92,metalsProfitsText.profit3.title,Преимущество №3. Заголовок.,Güvenilirlik
+93,metalsProfitsText.profit3.text|dot,Преимущество №3. Описание.,"Değerli metallere yatırım yapmak, herhangi bir piyasa dalgalanmasını finansal kayıp olmadan beklemenize yardımcı olacaktır."
+94,metalsProfitsText.profit4.title,Преимущество №4. Заголовок.,Öngörülebilirlik
+95,metalsProfitsText.profit4.text|dot,Преимущество №4. Описание.,"Para birimlerinde olduğu gibi, değerli metaller de minimum sayıda finansal performanstan etkilenir."
+2.4.2. Описание рынка,,,
+96,metalsAssetsText.title,Заголовок,Metal piyasası
+97,metalsAssetsText.text|dot,Подзаголовок,"Metal piyasası, herhangi bir ticaret tarzına sahip tüccarlar için uygundur. Dikkatli bir yatırımcı ve agresif bir tüccar, burada ticaret yaparak hedeflerine ulaşabilecek."
+2.5. Акции,,,
+2.5.1. Посадочный экран,,,
+98,stocksHeaderText.title,Заголовок,Hisse senetleri
+99,stocksHeaderText.text|dot,Подзаголовок,"Dünyanın en büyük şirketleri tarafından ihraç edilen menkul kıymetler piyasası. Dünyanın en eski ve en büyük pazarlarından biri. Burada, yatırımlardan pasif gelir elde etmeye, binlerce dolarlık aktif işlemlere kadar aynı anda çeşitli ticaret stratejileri uygulayabilirsiniz."
+100,stocksProfitsText.profit1.title,Преимущество №1. Заголовок.,Olanaklar
+101,stocksProfitsText.profit1.text|dot,Преимущество №1. Описание.,Finansal devlerin düzinelerce hissesi piyasada işlem görüyor ve yeni gelecek vaat eden şirketler her yıl halka arzlara giriyor.
+102,stocksProfitsText.profit2.title,Преимущество №2. Заголовок.,Güvenilirlik
+103,stocksProfitsText.profit2.text|dot,Преимущество №2. Описание.,"Şirketin menkul kıymetlerini satın alarak, gelirinin %'sini garanti ile devamlı alabilirsiniz."
+104,stocksProfitsText.profit3.title,Преимущество №3. Заголовок.,Değişkenlik
+105,stocksProfitsText.profit3.text|dot,Преимущество №3. Описание.,"CFD sözleşme teknolojisi, hem yükselen hem de düşen hisse senedi fiyatlarında kazanmanızı sağlar - krizin ortasında bile gelir elde edebilirsiniz."
+106,stocksProfitsText.profit4.title,Преимущество №4. Заголовок.,Erişilebilirlik
+107,stocksProfitsText.profit4.text|dot,Преимущество №4. Описание.,"Ayrıca, CFD'ler ve mikro hacimler sayesinde, 1 hisse senedinin maliyeti yüzlerce dolar olsa bile, minimum miktarda işlem açabilirsiniz."
+2.5.2. Описание рынка,,,
+108,stocksAssetsText.title,Заголовок,Hisse senedi piyasası
+109,stocksAssetsText.text|dot,Подзаголовок,"Hisse senedi piyasasında bir servet kazanabilir ve tasarruf edebilirsiniz. Burada hem aktif ticaret hem de pasif geliriniz size açıktır ve gelecek vaat eden halka arzlara yapılan yatırımlar, sermayeyi birkaç gün içinde birkaç kez artırmanıza olanak tanır."
+2.6. Товары,,,
+2.6.1. Посадочный экран,,,
+110,commoditiesHeaderText.title,Заголовок,Hammadde
+111,commoditiesHeaderText.text|dot,Подзаголовок,"Hammadde piyasasında, günlük yaşamda bir dereceye kadar karşılaştığımız varlıklar işlem görmektedir. Petrol, gaz, buğday, şeker, meyve suyu vb. konulardan bahsediyoruz; temel ve teknik analiz hakkında derinlemesine bilgi sahibi olmasa bile, emtia varlık piyasasındaki fiyat hareketlerini tahmin edebileceksiniz."
+112,commoditiesProfitsText.profit1.title,Преимущество №1. Заголовок.,Öngörülebilirlik
+113,commoditiesProfitsText.profit1.text|dot,Преимущество №1. Описание.,Hammadde piyasasında düzenli ve döngüsel fiyat hareketleri meydana gelir: ne zaman ticaret yapacağınızı anlamak için haberleri incelemeniz yeterlidir.
+114,commoditiesProfitsText.profit2.title,Преимущество №2. Заголовок.,Perspektifler
+115,commoditiesProfitsText.profit2.text|dot,Преимущество №2. Описание.,"«Kaldıraç» aracı, ticaret için depozitonuzun büyüklüğünden birkaç kat daha fazla bir miktar kullanmanıza izin verecektir."
+116,commoditiesProfitsText.profit3.title,Преимущество №3. Заголовок.,Olanaklar
+117,commoditiesProfitsText.profit3.text|dot,Преимущество №3. Описание.,"Ürünler, her biri kendi özelliklerine ve spesifikasyonlarına sahip geniş varlık grubudur ve her biri doğru stratejiyle size gelir getirecektir."
+118,commoditiesProfitsText.profit4.title,Преимущество №4. Заголовок.,Erişilebilirlik
+119,commoditiesProfitsText.profit4.text|dot,Преимущество №4. Описание.,"Forex gibi emtia piyasası, minimum deneyim gereksinimleri ve depozito miktarı nedeniyle yeni başlayanlar için en iyi yerdir."
+2.6.2. Описание рынка,,,
+120,commoditiesAssetsText.title,Заголовок,Hammadde pazarı
+121,commoditiesAssetsText.text|dot,Подзаголовок,"Hammadde piyasası, istikrarlı bir gelir elde etmek isteyen muhafazakar tüccarlar için en uygunudur. Burada, yüzlerce yüzde kâr elde ederek işletmeye para yatırmayacaksınız, ancak döngüsel ve basitlik düzenli olarak kazanmanıza izin verecektir."
+2.7. Индексы,,,
+2.7.1. Посадочный экран,,,
+122,indicesHeaderText.title,Заголовок,Hisse senedi endeksleri
+123,indicesHeaderText.text|dot,Подзаголовок,"Platformumuzdaki en sıra dışı varlıklar borsa endekslerinde işlem görüyor. Hisse senedi endeksleri, fiyatı tüm endüstrinin veya pazarın değerine bağlı olan koşullu varlıktır. Araştırmalar, piyasaların ve endüstrilerin uzun vadede büyümesinin garanti edildiğini, buna göre endekslerin %100 kâr elde etme olasılığına sahip bir yatırım fırsatı olduğunu göstermektedir."
+124,indicesProfitsText.profit1.title,Преимущество №1. Заголовок.,Kâr
+125,indicesProfitsText.profit1.text|dot,Преимущество №1. Описание.,"Company Name, müşterilerine ticaret sürecinde minimum masraf maliyetini sağlar: burada neredeyse hiç masraf olmadan para kazanabilirsiniz."
+126,indicesProfitsText.profit2.title,Преимущество №2. Заголовок.,Güvenilirlik
+127,indicesProfitsText.profit2.text|dot,Преимущество №2. Описание.,"İstisnasız tüm tüccarlar ve hatta fonlar endekslere yatırım yapmaktadır: çünkü bu, sermayeyi korumak için en güvenilir varlıktır."
+128,indicesProfitsText.profit3.title,Преимущество №3. Заголовок.,Maksimum likidite
+129,indicesProfitsText.profit3.text|dot,Преимущество №3. Описание.,Company Name dünyanın en güvenilir likidite toplayıcılarından veri alır ve müşterilere her türlü işlemin anında yürütülmesini sağlar.
+130,indicesProfitsText.profit4.title,Преимущество №4. Заголовок.,Erişilebilirlik
+131,indicesProfitsText.profit4.text|dot,Преимущество №4. Описание.,"Endeksler bir çeşit pahalı varlıktır, ancak CFD teknolojisi minimum miktar ile işlem açmanıza izin verecektir."
+2.7.2. Описание рынка,,,
+132,indicesAssetsText.title,Заголовок,Endeks piyasası
+133,indicesAssetsText.text|dot,Подзаголовок,"Endeks piyasası yatırımcılar için en iyi yerdir. Bu tür varlıklar çoğunlukla aktif ticaret için değil, pasif ve uzun vadeli yatırımlar için kullanılır. Hisse senedi endekslerine yatırım yaparak, bir süre sonra artacağından emin olabilirsiniz."
+2.8. Криптовалюты,,,
+2.8.1. Посадочный экран,,,
+134,cryptoHeaderText.title,Заголовок,Kripto para birimi
+135,cryptoHeaderText.text|dot,Подзаголовок,"Kripto para birimi piyasasında, kripto endüstrisinin en popüler ve yüksek kârlı ürünlerini bulabilirsiniz: Bitcoin, Ethereum, Ripple, vb. Buna ek olarak, kripto piyasası, yatırım sermayesini zaman zaman artırmanıza izin veren girişimler ve halka arzlar için bir pazardır."
+136,cryptoProfitsText.profit1.title,Преимущество №1. Заголовок.,Perspektifler
+137,cryptoProfitsText.profit1.text|dot,Преимущество №1. Описание.,"Kripto piyasası, tüccarların tüm kategorileri için sınırsız perspektifler açar, burada hemen hemen her sermayeyle ticaret yapabilirsiniz."
+138,cryptoProfitsText.profit2.title,Преимущество №2. Заголовок.,Kâr
+139,cryptoProfitsText.profit2.text|dot,Преимущество №2. Описание.,"Kripto piyasasında alım satım yapmak, asgari düzeyde olan Company Name komisyonu dışında herhangi bir masraf yoktur."
+140,cryptoProfitsText.profit3.title,Преимущество №3. Заголовок.,Öngörülebilirlik
+141,cryptoProfitsText.profit3.text|dot,Преимущество №3. Описание.,Kripto para birimlerinin fiyatları doğrudan onlar hakkındaki haberlere bağlıdır: analizleri kullanmanıza gerek yoktur - sadece güncel bilgi kanallarını incelemek yeterlidir.
+142,cryptoProfitsText.profit4.title,Преимущество №4. Заголовок.,Olanaklar
+143,cryptoProfitsText.profit4.text|dot,Преимущество №4. Описание.,Her yeni başlangıç unicorn olabilir ve her kripto para birimi tüccarlara yüzlerce % getiri getirecek varlıktır.
+2.8.2. Описание рынка,,,
+144,cryptoAssetsText.title,Заголовок,Kripto varlık piyasası
+145,cryptoAssetsText.text|dot,Подзаголовок,"Kripto para birimleri dünyanın en genç ve aktif olarak gelişen pazarıdır. Bu, onun oynaklığını ve yüksek getirisini açıklar. Burada ciddi riskler sizi bekliyor, ancak büyük kârlar olası maliyetleri karşılayacaktır."
+3. Торговые условия,,,
+3.1. Посадочный экран,,,
+146,tradingHeaderText.title,Заголовок,Company Name ile ticaret
+147,tradingHeaderText.text|dot,Подзаголовок,Company Name başarılı ticaret için eksiksiz araç listesi sunar. Bu sayfada her birine göz atabilirsiniz.
+3.2. Калькулятор трейдера,,,
+148,tradingCalculatorText.title,Заголовок,Tüccar hesap makinesi
+149,tradingCalculatorText.text|dot,Подзаголовок,İşlem sonuçlarını tahmin etmek için araç
+3.3. Расчетные данные,,,
+150,estimationText.offer_1,Инструмент,"Araç: <div class=""description"">Seçilen finansal aracı listeden belirtin</div>"
+151,estimationText.offer_2,Цена открытия,"Fiyat: <div class=""description"">Olası sonucu görmek için siparişin açılıp kapanmasının tahmini fiyatını belirtin</div>"
+152,estimationText.offer_3,Объем сделки,"İşlem hacmi: <div class=""description"">lotlardaki işlem hacmini kesin olarak belirtin</div>"
+153,estimationText.offer_4,"Спред, в пунктах","Spread pipste: <div class=""description"">Ask ve Bid fiyatları arasındaki farka göre otomatik olarak hesaplanır</div>"
+154,estimationText.offer_5,"Своп, в USD","Swap USD: <div class=""description"">pozisyonun gece değişim maliyetine göre otomatik olarak hesaplanır</div>"
+155,estimationText.offer_6,Маржа в USD,"Marj: <div class=""description"">bu veriler, işlemin gerçekleştirilmesi için gerekli olan minimum ücretsiz depozito miktarıdır</div>"
+156,estimationText.offer_7,Прибыль в USD,"Kâr: <div class=""description"">Girilen parametrelere dayanarak olası kârları belirtir</div>"
+3.4. Пример расчета,,,
+157,estimationText.h2,Заголовок,Tüccar hesap makinesi nasıl çalışır
+158,estimationText.ul_title,Подзаголовок,Giriş veriler
+159,estimationText.li_1,Данные №1,Araç
+160,estimationText.li_2,Данные №2,Açılış fiyatı
+161,estimationText.li_3,Данные №3,İşlem hacmi
+162,estimationText.li_4,Данные №4,Spread pipste
+163,estimationText.li_5,Данные №5,Swap USD
+164,estimationText.li_6,Данные №6,Marj
+165,estimationText.li_7,Данные №7,Kâr
+4. О компании,,,
+4.1. О компании + Показатели,,,
+166,aboutHeaderText.title,Слоган-заголовок,Company Name - ticaret için en iyi hizmet
+167,aboutHeaderText.text|dot,Подзаголовок,Company Name - tüccarlar tarafından ve tüccarlar için oluşturulmuş bir platform
+168,aboutCounterText.counter1.title,Показатель №1,<span class='indicator-number_1' data-indicator-number='347000'>0</span>
+169,aboutCounterText.counter1.text,Текст показателя №1,etkin kullanıcı
+170,aboutCounterText.counter2.title,Показатель №2,<span class='indicator-number_2' data-indicator-number='38600'>0</span>
+171,aboutCounterText.counter2.text,Текст показателя №2,açık işlemler
+172,aboutCounterText.counter3.title,Показатель №3,<span class='indicator-number_3' data-indicator-number='250'>0</span>+
+173,aboutCounterText.counter3.text,Текст показателя №3,ticaret için araç
+174,aboutCounterText.counter4.title,Показатель №4,<span class='indicator-number_4' data-indicator-number='150'>0</span> milyon
+175,aboutCounterText.counter4.text,Текст показателя №4,dolar günlük ciro
+176,aboutCounterText.counter5.title,Показатель №5,<span class='indicator-number_5' data-indicator-number='4'>0</span>-
+177,aboutCounterText.counter5.text,Текст показателя №5,senedir devam eden başarılı çalışmalar
+4.2. Вы в центре всего,,,
+178,aboutConditionsText.title,Заголовок,Başarılı bir ticaret için ihtiyacınız olan her şey
+179,aboutConditionsText.text|dot,Подзаголовок,"Takımımızın her bir üyesi, Company Name müşterilerinin kullanabileceği finansal piyasalarda zaten en uygun olan çalışma koşullarını iyileştirmek için günlük olarak çalışmaktadır. Herhangi bir tüccara mükemmel uyum sağlayacak ve aracılık pazarında bize liderlik edecek hizmet oluşturmayı hedefliyoruz."
+4.3. Цели и задачи компании,,,
+180,aboutGoalsText.h2,Общий заголовок,Hedeflerimiz
+181,aboutGoalsText.goal1.title,Заголовок №1,Hedef #1
+182,aboutGoalsText.goal1.text|dot,Описание заголовка №1,Aracılık ücretini %20 oranında azaltmak
+183,aboutGoalsText.goal2.title,Заголовок №2,Hedef #2
+184,aboutGoalsText.goal2.text|dot,Описание заголовка №2,Her müşteri için aylık gelirde %50'lik artış sağlamak
+4.4. Больше возможностей для трейдинга,,,
+185,aboutQualityText.title,Заголовок №1,Tam güvenlik
+186,aboutQualityText.text|dot,Описание заголовка №1,"Ayrılmış aracılık hesapları teknolojisi sayesinde, Company Name her müşterisinin fonları ortaklarımız tarafından güvenli bir şekilde korunur ve sigortalanır."
+4.5. Наша история,,,
+187,aboutHistoryText.h2,Общий заголовок,Tarih
+188,aboutHistoryText.year1.title,2018 год. Заголовок,Perspektife sahip ekip
+189,aboutHistoryText.year1.text|dot,2018 год. Описание,"2019 yılının Ocak ayında deneyimli finansal uzmanlardan ve başarılı tüccarlardan oluşan ekip kuruldu. Asıl amacımız, profesyonel tüccarların ve yeni başlayanların tüm ihtiyaçlarını karşılayacak ticaret platformu oluşturmaktı."
+190,aboutHistoryText.year2.title,2019 год. Заголовок,İlk adımlar
+191,aboutHistoryText.year2.text|dot,2019 год. Описание,Bu yıl ilk 7 bin kişi firmamızın müşterisi oldu. 2 ülkede ofis açtık ve platformu oluşturmak için en iyi yazılım geliştiricilerini işe aldık.
+192,aboutHistoryText.year3.title,2020 год. Заголовок,Ana hedefe ulaşıldı
+193,aboutHistoryText.year3.text|dot,2020 год. Описание,"2021'de platformun gelişimi sona erdi ve pandeminin yol açtığı kriz şirkete 20.000 yeni aktif tüccar getirdi. Bu yıl, çalışanları uzaktan çalışma biçimine taşımakla ilgili zorluklara rağmen şirketimiz için zafer dolu yıl oldu."
+194,aboutHistoryText.year4.title,2021 год. Заголовок,Yeni zirvelere giden yol
+195,aboutHistoryText.year4.text|dot,2021 год. Описание,2022 yılının ilk yarısında 10.000 kişi daha Company Name müşterisi oldu. Hizmet kalitesini iyileştirmek ve platforma yeni ve etkili araçlar eklemek için yorulmadan çalışıyoruz.
+4.6. Платформа для торговли разработанная для людей.,,,
+196,aboutPlatformText.title,Заголовок,Başarılı ticaret için modern platform
+197,aboutPlatformText.text|dot,Подзаголовок,"Company Name platformu güncel fiyatlandırmalar, son derece etkili araçlar ve anında işlem yapmak demektir."
+198,aboutPlatformText.advantage1,Преимущества №1,Dünyanın herhangi bir yerinden erişim
+199,aboutPlatformText.advantage2,Преимущества №2,En iyi mobil sürüm
+200,aboutPlatformText.advantage3,Преимущества №3,7/24 destek
+201,aboutPlatformText.advantage4,Преимущества №4,Maksimum likidite
+202,aboutPlatformText.advantage5,Преимущества №5,%100 güvenlik
+203,aboutPlatformText.advantage6,Преимущества №6,Optimal işbirliği koşulları
+204,aboutPlatformText.advantage7,Преимущества №7,En etkili araçlar
+5. Лицензии.,,,
+5.1. Посадочный экран,,,
+205,licensesHeaderText.title,Заголовок,Ortaklar ve düzenleyiciler
+206,licensesHeaderText.text,Подзаголовок к заголовку,"Company Name faaliyetleri en büyük ve en saygın bağımsız kuruluşları tarafından denetlenir. Aynı zamanda, dünyanın en büyük bankalarıyla olan ortaklıklar sayesinde müşterilerimize benzersiz bir hizmet ve fırsat seviyesi sunabiliyoruz."
+5.2. Информация о регуляторах и банках,,,
+207,licensesListText.license1.title,Заголовок №1,FMA
+208,licensesListText.license1.text,Описание №1,Avustralya Devlet Düzenleyicisi - finansal piyasaları denetleme komisyonu
+209,licensesListText.license2.title,Заголовок №2,ASIC
+210,licensesListText.license2.text,Описание №2,Avustralya Menkul Kıymetler ve Yatırım Komisyonu.
+211,licensesListText.license3.title,Заголовок №3,MFSA
+212,licensesListText.license3.text,Описание №3,Malta mali kuruluşlar ve brokerlar için devlet düzenleyicisi.
+213,licensesListText.license4.title,Заголовок №4,IFSC
+214,licensesListText.license4.text,Описание №4,"Belize Devlet Düzenleyicisi, Güney Amerika'nın en büyük düzenleyicisidir."
+215,licensesListText.license5.title,Заголовок №5,Quotix Aggregator
+216,licensesListText.license5.text,Описание №5,Güncel fiyatları ve siparişlerin hızlı bir şekilde grçekleştirilmesini sağlayan saygın likidite toplayıcısı
+217,licensesListText.license6.title,Заголовок №6,JP Morgan
+218,licensesListText.license6.text,Описание №6,En büyük uluslararası finans kurumu
+219,licensesListText.license7.title,Заголовок №7,MiFID
+220,licensesListText.license7.text,Описание №7,Kara para aklamayla mücadele araçlarını optimize eden AB direktifi
+221,licensesListText.license8.title,Заголовок №8,Goldman Sachs
+222,licensesListText.license8.text,Описание №8,Dünyanın en büyük ve saygın yatırım bankalarından biri
+6. Ошибка 404.,,,
+223,headerText404.title,Заголовок,Hata 404
+224,headerText404.text,Подзаголовок,"Bu sayfa mevcut değil, lütfen destek hizmeti ile iletişime geçin."
+225,headerText404.textMainPage,Вернуться на главную страницу,Ana sayfaya dönmek
+226,headerText404.textSupport,Служба технической поддержки,Teknik destek servisi
+8. Формы,,,
+8.1. Заголовки форм,,,
+228,formsText.titleEnter,Вход в личный кабинет,Kişisel hesaba giriş
+229,formsText.titleCallback,Оставить заявку,Başvuru bırakmak
+230,formsText.titleTwoauth,Двухэтапная авторизация,İki faktörlü yetkilendirme
+231,buttonText.signup,Регистрация,Kayıt
+232,fotmsText.titleReminder,Восстановление пароля,Şifre hatırlatma
+8.2. Поля ввода,,,
+233,formsText.labelName,Введите ваше имя,Ad *
+234,formsText.placeholderName,Введите ваше имя (placeholder),Adınız
+235,formsText.labelLastName,Введите вашу фамилию,Soyadı *
+236,formsText.placeholderLastName,Введите вашу фамилию (placeholder),Soyadınız
+237,formsText.labelMail,E-mail,E-mail *
+238,formsText.placeholderEmail,Введите ваш E-mail (placeholder),E-postanız
+239,formsText.labelPassword,Введите пароль,Şifre *
+240,formsText.placeholderPassword,Введите пароль (placeholder),Şifreyi giriniz
+241,formsText.labelConfirmPassword,Подтвердите пароль,Şifreyi onaylayın *
+242,formsText.labelPhone,Поле для ввода номера телефона,Telefon *
+243,formsText.placeholderPhone,Поле для ввода номера телефона (placeholder),Telefonunuz
+244,formsText.labelCountry,Выберите страну,Ülke
+245,formsText.placeholderCountry,Выберите страну (placeholder),Ülke seçiniz
+246,formsText.labelLanguage,Выберите язык,Dil
+247,formsText.placeholderLanguage,Выберите язык (placeholder),Dil seçiniz
+248,formsText.labelTime,Удобное время для звонка,Uygun zaman
+249,formsText.placeholderTime,Удобное время для звонка (placeholder),Arama zamanı
+250,formsText.lableTwoauth,Введите код двухэтапной авторизации,Yetkilendirme kodu *
+251,formsText.placeholderTwoauth,Введите код двухэтапной авторизации (placeholder),İki faktörlü yetkilendirme kodu
+252,formsText.labelPromo,Введите промокод,Promosyon kodu
+253,formsText.placeholderPromo,Введите промокод (placeholder),Promosyon kodunu giriniz
+8.3. Дополнительный текст,,,
+254,formsText.text_required,* - обязательные поля,* - zorunlu alan
+255,formsText.regRecommend,"Для пароля разрешены только латинские буквы, цифры и символы. ","Şifre için yalnızca Latin harflerine, rakamlara ve sembollere izin verilir. Şifre en az bir büyük harf, bir küçük harf ve bir rakam içermelidir."
+256,formsText.checkboxText,Обработка персональных данных (чекбокс),Kişisel verilerin işlenmesine izin veriyorum
+8.4. Уведомления,,,
+257,formsText.titleSuccess,Спасибо за отправку сообщения (заголовок),Mesaj gönderdiğiniz için teşekkürler
+258,formsText.textSuccess,Спасибо за отправку сообщения текст (подзаголовок),Yakın zamanda sizinle iletişime geçeceğiz.
+259,formsText.titleError,Ошибка отправки сообщения (заголовок),Mesaj gönderilirim hatası
+260,formsText.textError,Ошибка отправки сообщения текст (подзаголовок),Daha sonra deneyin
+309,formsText.titleAttention,Ошибка (заголовок),Dikkat!
+8.5. Ссылки в форме,,,
+261,formsText.forgotText,Забыли пароль?,Şifreyi mi unuttunuz?
+262,formsText.allreadyText,Уже есть учетная запись,Kullanıcı hesabı zaten var
+9. Навигация,,,
+263,navText.index,Главная,Ana
+264,navText.markets,Рынки,Piyasalar
+265,navText.about,О компании,Şirket hakkında
+266,navText.contacts,Контакты,İletişim
+267,navText.forex,Валюты,Dövizler
+268,navText.metals,Металлы,Metaller
+269,navText.stocks,Акции,Hisse senetleri
+270,navText.commodities,Товары,Ürünler
+271,navText.indices,Индексы,Endeksler
+272,navText.crypto,Криптовалюты,Kripto para birimleri
+273,navText.trading,Торговые условия,Ticaret koşulları
+274,navText.licenses,Аккредитация и лицензии,Akreditasyonlar ve lisanslar
+275,formsText.checkboxAgreement,Пользовательское соглашение,Kullanıcı sözleşmesi
+276,formsText.checkboxPolicy,Политика возврата средств,İade politikası
+293,curLang,Текущий язык,ing
+10. Кнопки,,,
+277,buttonText.login,Войти,Girmek
+278,buttonText.btnReg,Зарегистрироваться,Kaydolmak
+279,buttonText.enterFormButton,Войти в кабинет,Girmek
+280,buttonText.btnSend,Отправить,Göndermek
+281,buttonText.btnStartTrade,Начать торговать,Ticarete başlamak
+282,buttonText.btnOpenAcc,Открыть счет,Hesabı açmak
+283,buttonText.btnCallback,Запросить звонок,Çağrı istemek
+284,buttonText.btnLearMore,Узнать больше,Daha fazla bilgi edinin
+285,buttonText.btn404,Вернуться на главную,Ana sayfaya geri dönmek
+286,buttonText.btnSupport,Техническая поддержка,Teknik destek
+287,buttonText.btnPartner,Стать партнером,Ortak olmak
+11. Контакты,,,
+288,contactsHeaderText.title,Заголовок,7/24 müşteri desteği
+289,contactsHeaderText.text,Подзаголовок,Herhangi bir sorunuza en kısa sürede cevap vereceğiz
+290,contactsListText.contact2,Наша почта,Bizim postamız
+291,contactsListText.contact3,Месторасположение,Konum
+292,contactsListText.contact1,Международный номер,Uluslararası numara
+12. Тайтлы,,,
+293,titles.index,index,Company Name - ticaret için en iyi hizmet
+294,titles.notFound,404,404 - Company Name - ticaret için en iyi hizmet
+295,titles.licenses,licenses,Akreditasyonlar ve Lisanslar - Company Name - ticaret için en iyi hizmet
+296,titles.reminder,recovery,Şifre hatırlatma - Company Name - ticaret için en iyi hizmet
+297,titles.register,register,Kayıt - Company Name - ticaret için en iyi hizmet
+298,titles.login,login,Giriş - Company Name - ticaret için en iyi hizmet
+299,titles.about,about,Şirket hakkında - Company Name - ticaret için en iyi hizmet
+300,titles.contacts,contacts,İletişim - Company Name - 7/24 Müşteri Desteği
+301,titles.markets,markets,Burada finansal piyasaların ve bunlarda temsil edilen varlıkların kapsamlı açıklamasını bulacaksınız
+302,titles.commodities,commodities,Emtialar - emtia varlık piyasası
+303,titles.crypto,crypto,Kripto para birimleri - Kripto varlık piyasası
+304,titles.forex,forex,Para birimleri - Döviz varlık piyasası
+305,titles.indices,indices,Endeksler - Borsa endeksi piyasası
+306,titles.metals,metals,Metaller - Değerli metaller piyasası
+307,titles.stocks,stocks,Hisse senetleri - Menkul kıymetler piyasası
+308,titles.trading,trading,Ticaret koşulları - Company Name ile ticaret

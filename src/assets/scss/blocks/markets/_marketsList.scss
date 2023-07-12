@@ -1,0 +1,107 @@
+.markets-list__item {
+  &:nth-child(odd) {
+    background: $color-title;
+    .wrapper_markets-list {
+      flex-direction: row-reverse;
+    }
+    .markets-list__title {
+      color: $color-white;
+    }
+  }
+  &:nth-child(1) {
+    position: relative;
+    z-index: 2;
+  }
+}
+.wrapper_markets-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: rem(64px);
+  padding-bottom: rem(64px);
+}
+.markets-list__title {
+  margin-bottom: rem(24px);
+}
+.markets-content-wrapper {
+  max-width: rem(456px);
+  width: 100%;
+}
+.markets-list__text {
+  margin-bottom: rem(32px);
+}
+.btn-markets-list {
+  margin-right: rem(16px);
+}
+.section-markets {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.markets-img-wrapper_1 {
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: rem(89px);
+    height: rem(315px);
+    border-left: rem(3px) solid #E3E6EC;
+    border-bottom: rem(3px) solid #E3E6EC;
+    border-radius: 0 0 0 rem(80px);
+    top: rem(-66px);
+    left: 0;
+    transform: translateX(-100%);
+  }
+}
+
+
+// ADAPTIVE
+@media screen and (max-width: 1160px) {
+  .markets-list__item {
+    &:nth-child(odd) {
+      .markets-content-wrapper {
+        margin-right: rem(48px);
+      }
+    }
+    &:nth-child(even) {
+      .markets-content-wrapper {
+        margin-left: rem(48px);
+      }
+    }
+  }
+  .markets-img-wrapper_1 {
+    &::before {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .wrapper_markets-list {
+    flex-direction: column !important;
+  }
+  .markets-content-wrapper {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .markets-img-wrapper {
+    max-width: rem(350px);
+    margin-bottom: rem(32px);
+  }
+  .markets-list__title,
+  .markets-list__text {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .btn-markets-list {
+    margin-right: 0;
+  }
+  .markets-list__btns {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: rem(16px);
+  }
+}

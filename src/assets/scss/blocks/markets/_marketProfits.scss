@@ -1,0 +1,104 @@
+.profits-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: rem(24px);
+}
+.profits-list-item {
+  padding: rem(24px) rem(24px) rem(16px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $color-white;
+  box-shadow: 0px rem(15px) rem(80px) rgba(0, 0, 0, 0.09);
+  border-radius: rem(30px);
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $color-button;
+    position: absolute;
+    transition: 0.3s ease-in;
+    opacity: 0;
+    pointer-events: none;
+  }
+  &:hover {
+    &::before {
+      opacity: 1;
+    }
+    .profits-list__text {
+      color: $color-white;
+    }
+    .profits-list__title {
+      background: transparent;
+      -webkit-background-clip: initial;
+      -webkit-text-fill-color: initial;
+      color: $color-white;
+    }
+  }
+}
+.profits-icon-wrapper {
+  width: rem(70px);
+  height: rem(70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F7F6F9;
+  border-radius: rem(20px);
+  margin-bottom: rem(24px);
+  position: relative;
+  z-index: 1;
+}
+.profits-list__title,
+.profits-list__text{
+  position: relative;
+  transition: 0.3s ease-in;
+}
+.profits-decor {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  pointer-events: none;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: rem(-95px);
+    width: 100vw;
+    height: 100%;
+    border-top: rem(3px) solid #E3E6EC;
+    border-left: rem(3px) solid #E3E6EC;
+    border-radius: rem(90px) 0 0 0;
+  }
+}
+
+
+// ADAPTIVE
+@media (max-width: 1160px) {
+  .profits-decor {
+    display: none;
+  }
+  .section-profits {
+    padding-top: 0;
+  }
+  .profits-list-item {
+    pointer-events: none !important;
+    padding: rem(24px);
+  }
+  .profits-list {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: rem(16px);
+  }
+}
+@media (max-width: 640px) {
+  .profits-list {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,25 @@
+mixin marketProfits(text)
+	section.section.section-profits
+		.profits-decor.wrapper
+		.wrapper.wrapper_profits
+			.profits-list
+				.profits-list-item.profits-list-item_1(data-aos="fade-in" data-aos-delay="300")
+					.profits-icon-wrapper
+						img.profits-icon(src=baseDir + "assets/images/profits-" + currentPage + "-icon-1.png" alt="profits-icon" data-aos="zoom-in" data-aos-delay="450")
+					h3.center.profits-list__title.h3-title.h3-title_blue !{text["profit1"].title[lang]}
+					p.center.profits-list__text !{text["profit1"].text[lang]}
+				.profits-list-item.profits-list-item_2(data-aos="fade-in" data-aos-delay="450")
+					.profits-icon-wrapper
+						img.profits-icon(src=baseDir + "assets/images/profits-" + currentPage + "-icon-2.png" alt="profits-icon" data-aos="zoom-in" data-aos-delay="600")
+					h3.center.profits-list__title.h3-title.h3-title_blue !{text["profit2"].title[lang]}
+					p.center.profits-list__text !{text["profit2"].text[lang]}
+				.profits-list-item.profits-list-item_3(data-aos="fade-in" data-aos-delay="600")
+					.profits-icon-wrapper
+						img.profits-icon(src=baseDir + "assets/images/profits-" + currentPage + "-icon-3.png" alt="profits-icon" data-aos="zoom-in" data-aos-delay="750")
+					h3.center.profits-list__title.h3-title.h3-title_blue !{text["profit3"].title[lang]}
+					p.center.profits-list__text !{text["profit3"].text[lang]}
+				.profits-list-item.profits-list-item_4(data-aos="fade-in" data-aos-delay="750")
+					.profits-icon-wrapper
+						img.profits-icon(src=baseDir + "assets/images/profits-" + currentPage + "-icon-4.png" alt="profits-icon" data-aos="zoom-in" data-aos-delay="900")
+					h3.center.profits-list__title.h3-title.h3-title_blue !{text["profit4"].title[lang]}
+					p.center.profits-list__text !{text["profit4"].text[lang]}

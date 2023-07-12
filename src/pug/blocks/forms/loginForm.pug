@@ -1,0 +1,25 @@
+.form-nav
+	include ../nav.pug
+header.page-header.page-header_forms.page-header_forms-login.page-header_other-page
+	.wrapper.wrapper-header.form-wrapper.wrapper-header_other-page
+		.text-header-wrapper.text-header-wrapper_login.text-header-wrapper_forms
+			h1.h2-title.h2-title_login.h1-title_register.center !{buttonText.login[lang]}
+			.help-text.help-text-form.help-text-form_login.center !{formsText.text_required[lang]}
+			form#enter-form.main-form.main-form_login
+				.form-item.form-item_login
+					label.input-wrapper
+						span.label-form.label-form_sign !{formsText.labelMail[lang]}
+						input.form-input.form-input_sign#submit-email(type="email" required name="email")
+						span.error-icon
+				.form-item.form-item_login.form-item_login-last
+					label.input-wrapper.input-wrapper-password
+						span.label-form.label-form_sign !{formsText.labelPassword[lang]}
+						input.form-input.form-input_sign.form-input-pass#submit-pass-show(type="password" name="password" minlength="2" maxlength="50")
+						.show-icon
+						span.error-icon
+				.form-btn-submit.form-btn-submit_login
+					button.btn-submit.js--login-form.btn.btn-login-form.btn-main-form: span !{buttonText.login[lang]}
+					.form-links.form-links_login
+						a(href="recovery.html").btn-show-more.form-links_item.h3-title_blue.left !{formsText.forgotText[lang]}
+						a(href="registration.html").btn-show-more.form-links_item.h3-title_blue.left !{buttonText.signup[lang]}
+

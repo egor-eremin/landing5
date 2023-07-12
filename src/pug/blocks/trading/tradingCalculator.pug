@@ -1,0 +1,54 @@
+section.section.section-calculators.section-dark
+	.calculators-decor-wrapper.wrapper
+	.wrapper.wrapper-calculators
+		h2.section-calculators__title.h2-title.white.left !{tradingCalculatorText.title[lang]}
+		p.calculators-prev-text.left.big-text !{tradingCalculatorText.text[lang]}
+		#tradeCalculator.trade-calculator
+section.section.section-estimation
+	.wrapper.wrapper-estimation
+		h2.section-estimation__title.h2-title !{estimationText.h2[lang]}
+		p.estimation-prev-text !{estimationText.ul_title[lang]}
+		.clc-results.clc-results_estimation
+			.clc-table.clc-field
+				.clc-tableTitles
+					-for(let i = 1; i < 8; i++)
+						.clc-tableTitles__item.clc-table__item !{estimationText["li_"+i][lang]}
+				.clc-tableResults.clc-tableResults_estimation
+					.clc-tableResults__item.clc-table__item EUR/USD Buy
+					.clc-tableResults__item.clc-table__item 1.09200
+					.clc-tableResults__item.clc-table__item 1
+					.clc-tableResults__item.clc-table__item 1.09201
+					.clc-tableResults__item.clc-table__item -5.09
+					.clc-tableResults__item.clc-table__item 200.00 EUR
+					.clc-tableResults__item.clc-table__item 0.92 EUR
+		.estimation
+			//h3.estimation-title.h3-title !{estimationText.ul_title[lang]}
+			.estimation-wrapper
+				ul.estimation-list
+					-for(let i = 1; i < 8; i++)
+						li.estimation-list__item !{estimationText["offer_"+i][lang]}
+section.section.section-steps.section-steps_for-trade
+	.wrapper.wrapper-steps
+		h2.white.h2-title.h2-title_steps !{indexStepsText.h2[lang]}
+		.steps-content-wrapper
+			.steps-img.steps-img_trading
+				img(data-aos="zoom-in" data-aos-delay="300" src=baseDir + "assets/images/steps-for-tarding_1x.png" srcset=baseDir + "assets/images/steps-for-tarding_1x.png 1x, " + baseDir + "assets/images/steps-for-tarding_2x.png 2x" alt="steps")
+			.steps-list
+				.steps-list-item.steps-list-item_for-trading.steps-list__item-1(data-aos="fade-in" data-aos-delay="300")
+					.steps-number.steps-number_for-tarding.steps-number_1
+						span 1
+						.steps-number-text.steps-number-text_for-tarding
+					h3.steps-list__title.h3-title !{indexStepsText.step1.title[lang]}
+					p.steps-list__text !{indexStepsText.step1.text[lang]}
+				.steps-list-item.steps-list-item_for-trading.steps-list__item-2(data-aos="fade-in" data-aos-delay="450")
+					.steps-number.steps-number_for-tarding.steps-number_2
+						span 2
+						.steps-number-text.steps-number-text_for-tarding
+					h3.steps-list__title.h3-title !{indexStepsText.step2.title[lang]}
+					p.steps-list__text !{indexStepsText.step2.text[lang]}
+				.steps-list-item.steps-list-item_for-trading.steps-list__item-3(data-aos="fade-in" data-aos-delay="600")
+					.steps-number.steps-number_for-tarding.steps-number_3
+						span 3
+						.steps-number-text.steps-number-text_for-tarding
+					h3.steps-list__title.h3-title !{indexStepsText.step3.title[lang]}
+					p.steps-list__text !{indexStepsText.step3.text[lang]}

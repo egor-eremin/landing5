@@ -1,0 +1,13 @@
+include ../nav.pug
+header.page-header.page-header_licenses.page-header_other-page
+	.wrapper-page-image
+		.wrapper.wrapper__header-bg
+			.decor-header.decor-header_licenses
+			picture
+				source(srcset=baseDir + "assets/images/licenses_1x.webp 1x, " + baseDir + "assets/images/licenses_2x.webp 2x" type="image/webp")
+				img.header-img.header-img_licenses(data-aos="zoom-in" data-aos-delay="500" src=baseDir + "assets/images/licenses_1x.png" srcset=baseDir + "assets/images/licenses_1x.png 1x, " + baseDir + "assets/images/licenses_2x.png 2x" alt="licenses")
+	.wrapper.wrapper-header.wrapper-header_other-page
+		.text-header-wrapper.text-header-wrapper_licenses
+			h1.page-header__title.h1-title !{licensesHeaderText.title[lang]}
+			p.page-header__text !{licensesHeaderText.text[lang]}
+			a(href=linkSignup).btn: span !{buttonText.btnStartTrade[lang]}

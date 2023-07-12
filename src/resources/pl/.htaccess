@@ -1,0 +1,2 @@
+ErrorDocument 404 /pl/404.html
+ErrorDocument 503 /pl/503.html

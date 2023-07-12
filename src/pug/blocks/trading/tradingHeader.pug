@@ -1,0 +1,13 @@
+include ../nav.pug
+header.page-header.page-header_other-page
+	.wrapper-page-image
+		.wrapper.wrapper__header-bg
+			.decor-header.decor-header_trading
+			picture
+				source(srcset=baseDir + "assets/images/trading_1x.webp 1x, " + baseDir + "assets/images/trading_2x.webp 2x" type="image/webp")
+				img.header-img.header-img_trading(data-aos="zoom-in" data-aos-delay="500" src=baseDir + "assets/images/trading_1x.png" srcset=baseDir + "assets/images/trading_1x.png 1x, " + baseDir + "assets/images/trading_2x.png 2x" alt="trading")
+	.wrapper.wrapper-header.wrapper-header_other-page
+		.text-header-wrapper.text-header-wrapper_trading
+			h1.page-header__title.h1-title !{tradingHeaderText.title[lang]}
+			p.page-header__text !{tradingHeaderText.text[lang]}
+			a(href=linkSignup).btn.btn-start-trade: span !{buttonText.btnStartTrade[lang]}

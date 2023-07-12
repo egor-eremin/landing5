@@ -1,0 +1,383 @@
+@import "main";
+
+@import "partials/calculator";
+@import "blocks/index/indexAccounts";
+@import "blocks/index/indexSteps";
+@import "blocks/trading/tradingHeader";
+.decor-header_trading {
+  height: rem(146px);
+}
+.header-img_trading {
+  margin-top: rem(134px);
+}
+.text-header-wrapper_trading {
+  margin-top: rem(109px);
+}
+.calculator-wrapper {
+  position: relative;
+}
+.section-calculators__text {
+  margin-bottom: rem(24px);
+}
+.wrapper-calculators {
+  position: relative;
+  z-index: 2;
+  &::before {
+    left: rem(-68px);
+    top: rem(-19px);
+  }
+}
+.estimation-prev-text {
+  margin-bottom: rem(32px);
+  display: none;
+}
+.clc-table-estimation {
+  margin-bottom: rem(21px);
+}
+.estimation__title {
+  font-size: rem(16px);
+  line-height: rem(22px);
+  margin-bottom: rem(10px);
+}
+.estimation-list__item {
+  position: relative;
+  width: 100%;
+  font-size: rem(16px);
+  line-height: rem(18px);
+  color: $color-title;
+  font-weight: 500;
+  margin-bottom: rem(15px);
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.estimation-title {
+  margin-bottom: rem(16px);
+}
+.description {
+  display: inline;
+  font-weight: 400;
+}
+.right-blue-decor_estimation {
+  top: -381px;
+  left: rem(910px);
+}
+.estimation {
+  margin-top: rem(48px);
+}
+.img-header_trading {
+  max-width: rem(454px);
+}
+.estimation-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: rem(8px);
+  width: 100%;
+}
+.section-estimation {
+  z-index: 3;
+  padding-top: rem(112px);
+}
+.steps-trade {
+  position: relative;
+  z-index: 2;
+  .section-steps {
+    padding-bottom: rem(64px);
+  }
+  .steps-decor {
+    display: none;
+  }
+  .wrapper-parallax {
+    display: none;
+  }
+}
+.wrapper-calc-header {
+  display: flex;
+  margin-bottom: rem(32px);
+}
+.wrapper-calc-header__text {
+  max-width: rem(648px);
+  width: 100%;
+  margin-right: rem(24px);
+  margin-top: rem(2px);
+}
+.header-calc {
+  border-radius: rem(30px);
+}
+.calculators-prev-text {
+  margin-bottom: rem(28px);
+}
+
+.calc-decor-1 {
+  margin-left: rem(-581px);
+  top: rem(-52px);
+}
+.calc-decor-2 {
+  margin-left: rem(578px);
+  top: rem(563px);
+}
+.clc-results_estimation {
+  &.clc-results {
+    position: relative;
+    transform: none;
+    left: auto;
+    padding-top: 0;
+    &::before {
+      display: none;
+    }
+  }
+}
+.estimation-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.calc-wrapper {
+  position: relative;
+}
+.accounts-trade {
+  .section-accounts {
+    padding-top: 0;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .wrapper-accounts {
+    background: transparent;
+    box-shadow: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .h2-title__accounts {
+    color: $color-title;
+  }
+
+  .accounts-img__item {
+    transition: none;
+    span {
+      color: $color-title;
+      transition: none;
+    }
+    &:hover {
+      background: $color-button;
+      border-color: #57AEFD;
+      span {
+        background: transparent;
+        -webkit-background-clip: initial;
+        -webkit-text-fill-color: initial;
+        color: $color-white;
+      }
+    }
+  }
+  .accounts-img-list__wrapper .slick-slide.slick-current .accounts-img__item {
+    background: $color-button;
+    border-color: #57AEFD;
+    span {
+      background: transparent;
+      -webkit-background-clip: initial;
+      -webkit-text-fill-color: initial;
+      color: $color-white;
+    }
+  }
+  .account-list__item {
+    background: $color-button;
+    box-shadow: 0px rem(15px) rem(80px) rgba(0, 0, 0, 0.09);
+    border: rem(2px) solid rgba(255, 255, 255, 0.1);
+    padding: rem(32px) rem(48px);
+    justify-content: flex-start;
+  }
+  .accounts-list {
+    width: rem(864px);
+  }
+  .accounts-img-list {
+    margin-right: rem(48px);
+  }
+  .account-list-header {
+    margin-right: rem(119px);
+  }
+  .accounts-img-list__wrapper .slick-track .slick-slide:nth-child(2) {
+    position: relative;
+    &::before, &::after {
+      content: '';
+      display: block;
+      position: absolute;
+    }
+    &::before {
+      height: rem(156px);
+      width: rem(110px);
+      border-left: rem(3px) solid #E3E6EC;
+      border-bottom: rem(3px) solid #E3E6EC;
+      bottom: 50%;
+      left: 0;
+      transform: translate(-100%, 2px);
+      border-radius: 0 0 0 rem(90px);
+    }
+    &::after {
+      width: 100vw;
+      height: rem(156px);
+      border-left: rem(3px) solid #E3E6EC;
+      border-top: rem(3px) solid #E3E6EC;
+      border-radius: rem(90px) 0 0 0;
+      left: rem(-110px);
+      top: rem(-276px);
+    }
+  }
+}
+.section-calculators__title {
+  margin-bottom: rem(24px);
+}
+.section-calculators {
+  padding-bottom: 0;
+}
+.calculators-decor-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  pointer-events: none;
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: rem(81px);
+  }
+  &::before {
+    border-left: rem(3px) solid #1B325A;
+    border-bottom: rem(3px) solid #1B325A;
+    height: 100%;
+    border-radius: 0 0 0 rem(90px);
+    left: rem(-60px);
+  }
+  &::after {
+    border-right: rem(3px) solid #1B325A;
+    border-bottom: rem(3px) solid #1B325A;
+    height: 100%;
+    right: rem(-60px);
+    border-radius: 0 0 rem(90px) 0;
+  }
+}
+.section-steps_for-trade {
+  background: $color-button;
+  padding-bottom: rem(95px);
+  overflow: hidden;
+}
+.steps-img_trading {
+  margin-top: 0;
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-left: rem(3px) solid rgba(255, 255, 255, 0.1);
+    border-bottom: rem(3px) solid rgba(255, 255, 255, 0.1);
+    height: rem(500px);
+    width: rem(91px);
+    bottom: 50%;
+    border-radius: 0 0 0 rem(90px);
+    left: rem(-81px);
+  }
+}
+.steps-number_for-tarding {
+  &::before {
+    background: rgba(255, 255, 255, 0.1);
+    border: rem(2px) solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+  }
+  &::after {
+    background: rgba(255, 255, 255, 0.3);
+    border: rem(2px) solid rgba(255, 255, 255, 0.1);
+  }
+}
+.steps-number-text_for-tarding {
+  &::before {
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: $color-white;
+  }
+}
+.steps-list-item_for-trading {
+  &:hover {
+    .steps-number-text_for-tarding {
+      &::before {
+        opacity: 0.4;
+      }
+      &::after {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1160px) {
+  .text-header-wrapper_trading {
+    margin-left: 0;
+  }
+  .header-img_trading {
+    left: auto;
+  }
+  .wrapper-calc-header__text {
+    margin-top: 0;
+    margin-right: 0;
+    max-width: none;
+  }
+  .section-calculators__title {
+    margin-bottom: rem(16px) !important;
+  }
+  .estimation-title {
+    padding-bottom: 0;
+    margin-bottom: rem(16px);
+    &::before {
+      display: none;
+    }
+  }
+  .estimation-list__item {
+    display: block;
+  }
+  .steps-trade .section-steps {
+    border-radius: 0;
+  }
+  .page-header__text-trading {
+    margin-bottom: rem(32px);
+  }
+  .estimation-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .section-calculators {
+    padding-bottom: 0;
+  }
+  .accounts-trade {
+    .accounts-img-list__wrapper .slick-track .slick-slide {
+      &::before {
+        display: none !important;
+      }
+      &::after {
+        display: none !important;
+      }
+    }
+    .wrapper-accounts {
+      padding-top: 0;
+    }
+    .accounts-list {
+      width: 100%;
+    }
+  }
+  .section-estimation {
+    padding-top: rem(64px);
+  }
+  .steps-img_trading::before {
+    display: none;
+  }
+}

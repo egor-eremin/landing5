@@ -1,0 +1,329 @@
+.accounts-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.accounts-list {
+  width: rem(700px);
+  .slick-list {
+    overflow: initial;
+  }
+}
+.accounts-list__text {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: rem(27px);
+}
+.accounts-list__conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: rem(22px);
+}
+.accounts-btn-wrapper {
+  width: 100%;
+}
+.accounts-conditions-item {
+  margin-bottom: rem(16px);
+  color: $color-white;
+  position: relative;
+  padding-left: rem(25px);
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: rem(14px);
+    height: rem(14px);
+    background: url("../images/icon-list.png") no-repeat;
+    background-size: 100%;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &.hide {
+    opacity: 0.8;
+    &::before {
+      content: "";
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: rem(3px);
+    }
+  }
+}
+.accounts-btn-wrapper {
+  margin-top: rem(32px);
+}
+.slick-account-arrow {
+  width: rem(64px);
+  height: rem(64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  background: $color-button;
+  &:hover {
+    svg {
+      opacity: 1;
+    }
+  }
+  &:active {
+    svg {
+      opacity: 1;
+    }
+  }
+  &.slick-prev-main {
+    margin-right: 0;
+    margin-bottom: rem(1px);
+  }
+  &.slick-next-main {
+    margin-left: 0;
+  }
+}
+.section-accounts {
+  padding-top: rem(131px);
+  padding-bottom: rem(60px);
+  z-index: 1;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: rem(403px);
+    background: #0F2852;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+.accounts-img-list {
+  width: rem(216px);
+  margin-right: rem(72px);
+}
+.accounts-list-title {
+  font-size: rem(24px);
+  line-height: rem(28px);
+  margin-bottom: rem(16px);
+}
+.accounts-img__item {
+  padding-top: rem(21px);
+  padding-bottom: rem(20px);
+  height: rem(65px);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: rem(10px);
+  box-shadow: 0px rem(15px) rem(80px) rgba(0, 0, 0, 0.09);
+  background: rgba(255, 255, 255, 0.05);
+  transition: 0.3s ease-in;
+  span {
+    font-weight: 500;
+    font-size: rem(20px);
+    line-height: rem(24px);
+    color: $color-white;
+    transition: 0.3s ease-in;
+  }
+  &:hover {
+    border-color: $color-white;
+    background: #FFFFFF;
+    box-shadow: 0px rem(15px) rem(80px) rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+    span {
+      background: $color-text-gradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: $color-main-blue;
+    }
+  }
+}
+.accounts-img-list__wrapper {
+  height: 100%;
+  .slick-track {
+    flex-direction: column;
+    transform: none !important;
+    height: 100%;
+    justify-content: space-between;
+    .slick-slide,
+    .slick-slide > div {
+      width: 100% !important;
+    }
+  }
+  .slick-list {
+    overflow: initial;
+    height: 100%;
+  }
+  .slick-slide {
+    &.slick-current {
+      .accounts-img__item {
+        border-color: $color-white;
+        background: #FFFFFF;
+        box-shadow: 0px rem(15px) rem(80px) rgba(0, 0, 0, 0.09);
+        cursor: pointer;
+        span {
+          background: $color-text-gradient;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: $color-main-blue;
+        }
+      }
+    }
+  }
+}
+.accounts-arrow {
+  justify-content: center;
+  margin-top: rem(24px);
+}
+.accounts-arrow_mobile {
+  display: none;
+}
+.wrapper-accounts {
+  background: linear-gradient(64.44deg, #309CFF 7.52%, #007BEB 80.31%);
+  box-shadow: 0px rem(24px) rem(80px) rgba(0, 0, 0, 0.09);
+  border-radius: rem(30px);
+  padding: rem(60px) rem(70px) rem(64px);
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: rem(120px);
+    border-top: rem(3px) solid #1B325A;
+    border-right: rem(3px) solid #1B325A;
+    top: 0;
+    right: rem(561px);
+    transform: translate(0, -100%);
+    border-radius: 0 rem(117px) 0 0;
+  }
+}
+.h2-title__accounts {
+  margin-bottom: rem(45px);
+}
+.account-list__item {
+  padding: rem(32px) rem(24px) rem(32px) rem(32px);
+  background: rgba(255, 255, 255, 0.05);
+  border: rem(2px) solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px rem(15px) rem(80px) rgba(0, 0, 0, 0.09);
+  border-radius: rem(10px);
+  display: flex !important;
+  justify-content: space-between;
+}
+.account-list-header {
+  max-width: rem(312px);
+  width: 100%;
+  margin-right: rem(94px);
+}
+.min-deposit-text {
+  font-weight: 500;
+  margin-bottom: rem(8px);
+}
+.min-deposit-number {
+  font-size: rem(32px);
+  line-height: rem(72px);
+  font-weight: 700;
+  color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: rem(216px);
+  height: rem(60px);
+  border-radius: rem(10px);
+  box-shadow: 0px rem(15px) rem(80px) rgba(0, 0, 0, 0.09);
+  overflow: hidden;
+  position: relative;
+  background: url("../images/bg-min-deposit.png") no-repeat;
+  background-size: 100% 100%;
+}
+.min-deposit {
+  margin-bottom: rem(16px);
+}
+
+// ADAPTIVE
+@media (max-width: 1160px) {
+  .section-accounts {
+    padding-top: rem(64px);
+  }
+  .wrapper-accounts {
+    &::before {
+      display: none;
+    }
+  }
+  .accounts-wrapper {
+    flex-direction: column;
+  }
+  .accounts-img-list {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: rem(32px);
+  }
+  .accounts-img-list__wrapper {
+    .slick-track {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100% !important;
+      .slick-slide {
+        width: auto !important;
+      }
+    }
+  }
+  .accounts-img__item {
+    padding-right: rem(32px);
+    padding-left: rem(32px);
+    min-width: rem(216px);
+  }
+  .accounts-list {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .accounts-img__item {
+    min-width: auto;
+    padding: rem(16px) rem(24px);
+    height: auto;
+    span {
+      font-size: rem(16px);
+      line-height: rem(24px);
+    }
+  }
+  .min-deposit-number {
+    font-size: rem(24px);
+    line-height: 1;
+    height: auto;
+    width: auto;
+    min-width: rem(250px);
+    padding: rem(16px) rem(24px);
+    display: inline-flex;
+  }
+  .account-list-header {
+    margin-right: rem(40px);
+  }
+  .wrapper-accounts {
+    padding-left: rem(48px);
+    padding-right: rem(48px);
+  }
+}
+@media (max-width: 800px)  {
+  .account-list__item {
+    flex-direction: column;
+  }
+  .account-list-header {
+    max-width: none;
+    margin-right: 0;
+  }
+  .accounts-list__conditions {
+    margin-top: rem(32px);
+  }
+}
+@media (max-width: 640px)  {
+  .accounts-img__item {
+    padding: rem(8px) rem(16px);
+    span {
+      font-size: rem(14px);
+      line-height: rem(16px);
+    }
+  }
+}
+@media (max-width: 480px)  {
+  .wrapper-accounts {
+      padding: rem(32px) rem(24px);
+  }
+}

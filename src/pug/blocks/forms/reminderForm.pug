@@ -1,0 +1,18 @@
+.form-nav
+	include ../nav.pug
+header.page-header_forms.page-header_forms.page-header.page-header_other-page
+	.wrapper.wrapper-header.form-wrapper.wrapper-header_other-page
+		.text-header-wrapper.text-header-wrapper_login.text-header-wrapper_forms
+			h1.h2-title.h1-title_register.h1-title_reminder.center !{fotmsText.titleReminder[lang]}
+			.help-text.help-text-form.help-text-form_login.center !{formsText.text_required[lang]}
+			form#restore-form.main-form.main-form_reminder.main-form_login
+				.form-item.form-item_login
+					label.input-wrapper
+						span.label-form.label-form_sign !{formsText.labelMail[lang]}
+						input.form-input.form-input_sign#submit-email(type="email" required name="email")
+						span.error-icon
+				.form-btn-submit.form-btn-submit_login
+					button.btn-submit.js--repass.btn.btn-login-form.btn-main-form: span !{buttonText.btnSend[lang]}
+					.form-links.form-links_login
+						a(href="login.html").btn-show-more.form-links_item.h3-title_blue !{formsText.allreadyText[lang]}
+						a(href="registration.html").btn-show-more.form-links_item.h3-title_blue !{buttonText.signup[lang]}

@@ -1,0 +1,42 @@
+mixin account(i)
+	.account-list__item(class=["account-list__item" + i])
+		.account-list-header
+			h3.accounts-list-title.h3-title !{indexAccountsText["account" + i].title[lang]}
+			p.accounts-list__text !{indexAccountsText["account" + i].text[lang]}
+			.min-deposit
+				.min-deposit-text.white !{indexAccountsText.account_condition_1[lang]}
+				if i == 1
+					.min-deposit-number: span $1 000
+				if i == 2
+					.min-deposit-number: span $25 000
+				if i == 3
+					.min-deposit-number: span $50 000
+			a(href=linkSignup).btn.btn_white.btn_accounts: span !{buttonText.btnOpenAcc[lang]}
+		.accounts-list__conditions
+				if i == 1
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_2[lang]} 1:20
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_3[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_4[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_10[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_6[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_7[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_8[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_9[lang]}
+				else if i == 2
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_2[lang]} 1:50
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_3[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_4[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_10[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_6[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_7[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_8[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_9[lang]}
+				else if i == 3
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_2[lang]} 1:100
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_3[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_4[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_10[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_6[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_7[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_8[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_9[lang]}

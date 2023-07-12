@@ -1,0 +1,13 @@
+include ../nav.pug
+header.page-header.page-header_markets.page-header_other-page
+	.wrapper-page-image(data-aos="" data-aos-delay="300")
+		.wrapper.wrapper__header-bg
+			.decor-header.decor-header_markets
+			picture
+				source(srcset=baseDir + "assets/images/markets_1x.webp 1x, " + baseDir + "assets/images/markets_2x.webp 2x" type="image/webp")
+				img.header-img.header-img_markets(data-aos="zoom-in" data-aos-delay="500" src=baseDir + "assets/images/markets_1x.png" srcset=baseDir + "assets/images/markets_1x.png 1x, " + baseDir + "assets/images/markets_2x.png 2x" alt="markets")
+	.wrapper.wrapper-header.wrapper-header_other-page
+		.text-header-wrapper.text-header-wrapper_markets
+			h1.page-header__title.h1-title !{marketsHeaderText.title[lang]}
+			p.page-header__text !{marketsHeaderText.text[lang]}
+			a(href=linkSignup).btn.btn-start-trade: span !{buttonText.btnStartTrade[lang]}

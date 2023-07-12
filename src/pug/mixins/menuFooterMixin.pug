@@ -1,0 +1,18 @@
+mixin menuFooterMixin()
+	.footer-wrapper.wrapper(class="footer-wrapper_" + lang)
+		.footer-row__item.footer-row__item-1
+			a.footer-logo(href="index.html"): img(src=baseDir + "assets/images/logo-white.svg" width="48" height="48" alt="logo")
+			.footer-menu(class="footer-menu_" + lang)
+				.footer-href-wrapper
+					a.footer-menu-href(href="financial-instruments.html") !{navText.markets[lang]}
+				.footer-href-wrapper
+					a.footer-menu-href(href="about-company.html") !{navText.about[lang]}
+				.footer-href-wrapper
+					a.footer-menu-href(href="trading-conditions.html") !{navText.trading[lang]}
+				.footer-href-wrapper
+					a.footer-menu-href(href="contacts.html") !{navText.contacts[lang]}
+			//.footer-contacts
+			//	.footer-contacts__item !{companyData.phone}
+			//	.footer-contacts__item !{companyData.adres}
+		.footer-row__item.footer-row__item-2
+			.footer-content#page-footer

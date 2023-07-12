@@ -1,0 +1,114 @@
+.goals-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: rem(24px);
+}
+.goals-list__item {
+  background: $color-white;
+  box-shadow: 0px rem(15px) rem(80px) rgba(0, 0, 0, 0.09);
+  border-radius: rem(30px);
+  padding: rem(24px);
+  &:hover {
+    .goals-list__text {
+      color: $color-white;
+    }
+    .goals-list__title {
+      background: transparent;
+      -webkit-background-clip: initial;
+      -webkit-text-fill-color: initial;
+      color: $color-white;
+    }
+  }
+}
+.goals-header-wrapper,
+.goals-list__text {
+  position: relative;
+}
+.goals-header-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: rem(16px);
+}
+.goals-list__title {
+  margin-bottom: 0;
+}
+.goals-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(70px);
+  height: rem(70px);
+  border-radius: rem(20px);
+  background: #F7F6F9;
+  margin-right: rem(25px);
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: rem(26px);
+    height: rem(26px);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+.goals-icon_1 {
+  &::before {
+    background-image: url("../images/goal-icon-1.png");
+  }
+}
+.goals-icon_2 {
+  &::before {
+    background-image: url("../images/goal-icon-2.png");
+  }
+}
+.wrapper_goals {
+  position: relative;
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+  }
+  &::before {
+    border-left: rem(3px) solid #E3E6EC;
+    border-bottom: rem(3px) solid #E3E6EC;
+    width: rem(81px);
+    height: rem(250px);
+    left: rem(15px);
+    bottom: rem(61px);
+    transform: translateX(-100%);
+    border-radius: 0 0 0 rem(90px);
+  }
+  &::after {
+    border-right: rem(3px) solid #E3E6EC;
+    border-bottom: rem(3px) solid #E3E6EC;
+    width: rem(81px);
+    height: rem(250px);
+    right: rem(15px);
+    bottom: rem(61px);
+    transform: translateX(100%);
+    border-radius: 0 0 rem(90px) 0;
+  }
+}
+
+
+@media (max-width: 1160px) {
+  .wrapper_goals {
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+  .goals-list {
+    grid-gap: rem(16px);
+  }
+  .goals-list__title {
+    margin-bottom: 0 !important;
+  }
+}
+@media (max-width: 640px)  {
+  .goals-list {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,29 @@
+include ../nav.pug
+header.page-header.page-header_contacts.page-header_other-page
+	.wrapper.wrapper-header.wrapper-header_other-page.wrapper-header_content
+		.text-header-wrapper.text-header-wrapper_contacts
+			h1.page-header__title.h1-title !{contactsHeaderText.title[lang]}
+			p.page-header__text !{contactsHeaderText.text[lang]}
+			button.callback-open-js.btn(class="callback-open-" + lang): span !{buttonText.btnCallback[lang]}
+		.contacts-list
+			.contacts-list-item-wrapper.contacts-list-item-wrapper_1(data-aos="fade" data-aos-delay="300")
+				.contacts-list__item.block-blue-hover.contacts-list__item-1
+					.contacts-icon-wrapper
+						img.contacts-icon(src=baseDir + "assets/images/" + currentPage + "-icon-2.png" alt="contacts-icon")
+					.contacts-text-wrapper
+						p.label-contacts-item !{contactsListText.contact1[lang]}
+						p.h3-title_blue.contacts-list__title.contacts-list__title_phone !{companyData.phone}
+			.contacts-list-item-wrapper.contacts-list-item-wrapper_2(data-aos="fade" data-aos-delay="450")
+				.contacts-list__item.block-blue-hover.contacts-list__item-2
+					.contacts-icon-wrapper
+						img.contacts-icon(src=baseDir + "assets/images/" + currentPage + "-icon-1.png" alt="contacts-icon")
+					.contacts-text-wrapper
+						p.label-contacts-item !{contactsListText.contact2[lang]}
+						p.h3-title_blue.contacts-list__title.contacts-list__title_email: a(href=`mailto:${companyData.email}`) !{companyData.email}
+			.contacts-list-item-wrapper.contacts-list-item-wrapper_3(data-aos="fade" data-aos-delay="600")
+				.contacts-list__item.block-blue-hover.contacts-list__item-3
+					.contacts-icon-wrapper
+						img.contacts-icon(src=baseDir + "assets/images/" + currentPage + "-icon-3.png	" alt="contacts-icon")
+					.contacts-text-wrapper
+						p.label-contacts-item !{contactsListText.contact3[lang]}
+						p.h3-title_blue.contacts-list__title.contacts-list__title_address !{companyData.adres}

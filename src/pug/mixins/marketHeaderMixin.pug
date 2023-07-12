@@ -1,0 +1,14 @@
+mixin marketHeader(title, text, className)
+	include ../blocks/nav.pug
+	header.page-header.page-header_other-page.page-header_markets-items
+		.wrapper-page-image(data-aos="" data-aos-delay="300")
+			.wrapper.wrapper__header-bg
+				.decor-header.decor-header_markets-items(class="decor-header_markets-items-" + className)
+				picture
+					source(srcset=baseDir + "assets/images/header-img-" + className + "_1x.webp 1x, " + baseDir + "assets/images/header-img-" + className + "_2x.webp 2x" type="image/webp")
+					img.header-img.header-img_markets-item(class="header-img_markets-item_" + className data-aos="zoom-in" data-aos-delay="500" src=baseDir + "assets/images/header-img-" + className + "_1x.png" srcset=baseDir + "assets/images/header-img-" + className + "_1x.png 1x, " + baseDir + "assets/images/header-img-" + className + "_2x.png 2x" alt="markets-item")
+		.wrapper.wrapper-header.wrapper-header_other-page
+			.text-header-wrapper.text-header-wrapper_other-page(class="text-header-wrapper_markets-" + className)
+				h1.page-header__title.h1-title !{title}
+				p.page-header__text !{text}
+				a(href=linkSignup).btn.btn-start-trade: span !{buttonText.btnStartTrade[lang]}

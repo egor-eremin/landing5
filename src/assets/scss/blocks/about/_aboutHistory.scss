@@ -1,0 +1,106 @@
+.history-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: rem(22px);
+}
+.history-list__item {
+  padding: rem(32px) rem(24px) rem(24px);
+  border: rem(2px) solid #3C5072;
+  border-radius: rem(30px);
+  background: #273D63;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s ease-in;
+  height: 100%;
+  &::before {
+    background: linear-gradient(64.44deg, rgba(48, 156, 255, 0.3) 7.52%, rgba(0, 123, 235, 0.3) 80.31%), rgba(255, 255, 255, 0.1);
+  }
+  &:hover {
+    border-color: #3E6A9C;
+    .year {
+      background: #2A6EB3;
+      border-color: #427FBC;
+    }
+  }
+}
+.year {
+  margin-top: auto;
+  padding: rem(20px) rem(34px);
+  font-weight: 700;
+  color: $color-white;
+  font-size: rem(24px);
+  line-height: rem(16px);
+  border-radius: rem(20px);
+  border: rem(2px) solid #4F6180;
+  background: #3C5072;
+  position: relative;
+  transition: 0.3s ease-in;
+}
+.history-list__text {
+  margin-bottom: rem(24px);
+  position: relative;
+}
+.history-list__title {
+  position: relative;
+}
+.history-list-item-wrapper_1,
+.history-list-item-wrapper_4 {
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+  }
+}
+.history-list-item-wrapper_1 {
+  &::before {
+    height: rem(92px);
+    width: 100vw;
+    border-right: rem(3px) solid #1B325A;
+    border-bottom: rem(3px) solid #1B325A;
+    bottom: 0;
+    right: 50%;
+    transform: translate(2px, 100%);
+    border-radius: 0 0 rem(90px) 0;
+  }
+}
+.history-list-item-wrapper_4 {
+  &::before {
+    height: rem(92px);
+    width: 100vw;
+    border-top: rem(3px) solid #1B325A;
+    border-left: rem(3px) solid #1B325A;
+    top: 0;
+    left: 50%;
+    transform: translate(-2px, -100%);
+    border-radius: rem(90px) 0 0 0;
+  }
+}
+.section-history {
+  padding-bottom: rem(157px);
+}
+
+
+@media (max-width: 1160px) {
+  .history-list-item-wrapper {
+    &::before {
+      display: none !important;
+    }
+  }
+  .section-history {
+    padding-bottom: rem(64px);
+  }
+  .history-wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: rem(16px);
+  }
+  .history-list__item {
+    transition: 0.3s ease-in !important;
+  }
+}
+@media (max-width: 640px)  {
+  .history-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

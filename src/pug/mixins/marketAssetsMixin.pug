@@ -1,0 +1,8 @@
+mixin marketAssets(title, text, img)
+	section.section.section-assets.section-dark
+		.wrapper.wrapper_assets(data-aos="fade-up" data-aos-delay="300")
+			.assets-wrapper-content
+				h2.h2-title.white.h2-title_assets.left !{title}
+				p.assets-text.big-text !{text}
+			.assets-wrapper-img
+				img(class="assets-img_" + currentPage data-aos="zoom-in" data-aos-delay="500" src=baseDir + "assets/images/assets-img-" + currentPage + "_1x.png" srcset=baseDir + "assets/images/assets-img-" + currentPage + "_1x.png 1x, " + baseDir + "assets/images/assets-img-" + currentPage + "_2x.png 2x" alt="assets-img")
